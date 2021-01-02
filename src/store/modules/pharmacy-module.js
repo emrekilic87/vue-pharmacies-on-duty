@@ -13,7 +13,7 @@ const getters = {
 const actions = {
   async fetchPharmacies({ commit }, data) {
     commit("setLoading", true)
-    const response = await axios.get(`http://api.kodlama.net/eczane/il/${data.licensePlate}`);    
+    const response = await axios.get(`https://api.kodlama.net/eczane/il/${data.licensePlate}`);    
     commit("setPharmacies", response.data)
     setTimeout(() => {
       commit("setLoading", false)      
