@@ -1,0 +1,326 @@
+{
+  "1": {
+    "number": "01",
+    "name": "ADANA"
+  },
+  "2": {
+    "number": "02",
+    "name": "ADIYAMAN"
+  },
+  "3": {
+    "number": "03",
+    "name": "AFYONKARAHİSAR"
+  },
+  "4": {
+    "number": "04",
+    "name": "AĞRI"
+  },
+  "5": {
+    "number": "05",
+    "name": "AMASYA"
+  },
+  "6": {
+    "number": "06",
+    "name": "ANKARA"
+  },
+  "7": {
+    "number": "07",
+    "name": "ANTALYA"
+  },
+  "8": {
+    "number": "08",
+    "name": "ARTVİN"
+  },
+  "9": {
+    "number": "09",
+    "name": "AYDIN"
+  },
+  "10": {
+    "number": "10",
+    "name": "BALIKESİR"
+  },
+  "11": {
+    "number": "11",
+    "name": "BİLECİK"
+  },
+  "12": {
+    "number": "12",
+    "name": "BİNGÖL"
+  },
+  "13": {
+    "number": "13",
+    "name": "BİTLİS"
+  },
+  "14": {
+    "number": "14",
+    "name": "BOLU"
+  },
+  "15": {
+    "number": "15",
+    "name": "BURDUR"
+  },
+  "16": {
+    "number": "16",
+    "name": "BURSA"
+  },
+  "17": {
+    "number": "17",
+    "name": "ÇANAKKALE"
+  },
+  "18": {
+    "number": "18",
+    "name": "ÇANKIRI"
+  },
+  "19": {
+    "number": "19",
+    "name": "ÇORUM"
+  },
+  "20": {
+    "number": "20",
+    "name": "DENİZLİ"
+  },
+  "21": {
+    "number": "21",
+    "name": "DİYARBAKIR"
+  },
+  "22": {
+    "number": "22",
+    "name": "EDİRNE"
+  },
+  "23": {
+    "number": "23",
+    "name": "ELAZIĞ"
+  },
+  "24": {
+    "number": "24",
+    "name": "ERZİNCAN"
+  },
+  "25": {
+    "number": "25",
+    "name": "ERZURUM"
+  },
+  "26": {
+    "number": "26",
+    "name": "ESKİŞEHİR"
+  },
+  "27": {
+    "number": "27",
+    "name": "GAZİANTEP"
+  },
+  "28": {
+    "number": "28",
+    "name": "GİRESUN"
+  },
+  "29": {
+    "number": "29",
+    "name": "GÜMÜŞHANE"
+  },
+  "30": {
+    "number": "30",
+    "name": "HAKKARİ"
+  },
+  "31": {
+    "number": "31",
+    "name": "HATAY"
+  },
+  "32": {
+    "number": "32",
+    "name": "ISPARTA"
+  },
+  "33": {
+    "number": "33",
+    "name": "MERSİN"
+  },
+  "34": {
+    "number": "34",
+    "name": "İSTANBUL"
+  },
+  "35": {
+    "number": "35",
+    "name": "İZMİR"
+  },
+  "36": {
+    "number": "36",
+    "name": "KARS"
+  },
+  "37": {
+    "number": "37",
+    "name": "KASTAMONU"
+  },
+  "38": {
+    "number": "38",
+    "name": "KAYSERİ"
+  },
+  "39": {
+    "number": "39",
+    "name": "KIRKLARELİ"
+  },
+  "40": {
+    "number": "40",
+    "name": "KIRŞEHİR"
+  },
+  "41": {
+    "number": "41",
+    "name": "KOCAELİ"
+  },
+  "42": {
+    "number": "42",
+    "name": "KONYA"
+  },
+  "43": {
+    "number": "43",
+    "name": "KÜTAHYA"
+  },
+  "44": {
+    "number": "44",
+    "name": "MALATYA"
+  },
+  "45": {
+    "number": "45",
+    "name": "MANİSA"
+  },
+  "46": {
+    "number": "46",
+    "name": "KAHRAMANMARAŞ"
+  },
+  "47": {
+    "number": "47",
+    "name": "MARDİN"
+  },
+  "48": {
+    "number": "48",
+    "name": "MUĞLA"
+  },
+  "49": {
+    "number": "49",
+    "name": "MUŞ"
+  },
+  "50": {
+    "number": "50",
+    "name": "NEVŞEHİR"
+  },
+  "51": {
+    "number": "51",
+    "name": "NİĞDE"
+  },
+  "52": {
+    "number": "52",
+    "name": "ORDU"
+  },
+  "53": {
+    "number": "53",
+    "name": "RİZE"
+  },
+  "54": {
+    "number": "54",
+    "name": "SAKARYA"
+  },
+  "55": {
+    "number": "55",
+    "name": "SAMSUN"
+  },
+  "56": {
+    "number": "56",
+    "name": "SİİRT"
+  },
+  "57": {
+    "number": "57",
+    "name": "SİNOP"
+  },
+  "58": {
+    "number": "58",
+    "name": "SİVAS"
+  },
+  "59": {
+    "number": "59",
+    "name": "TEKİRDAĞ"
+  },
+  "60": {
+    "number": "60",
+    "name": "TOKAT"
+  },
+  "61": {
+    "number": "61",
+    "name": "TRABZON"
+  },
+  "62": {
+    "number": "62",
+    "name": "TUNCELİ"
+  },
+  "63": {
+    "number": "63",
+    "name": "ŞANLIURFA"
+  },
+  "64": {
+    "number": "64",
+    "name": "UŞAK"
+  },
+  "65": {
+    "number": "65",
+    "name": "VAN"
+  },
+  "66": {
+    "number": "66",
+    "name": "YOZGAT"
+  },
+  "67": {
+    "number": "67",
+    "name": "ZONGULDAK"
+  },
+  "68": {
+    "number": "68",
+    "name": "AKSARAY"
+  },
+  "69": {
+    "number": "69",
+    "name": "BAYBURT"
+  },
+  "70": {
+    "number": "70",
+    "name": "KARAMAN"
+  },
+  "71": {
+    "number": "71",
+    "name": "KIRIKKALE"
+  },
+  "72": {
+    "number": "72",
+    "name": "BATMAN"
+  },
+  "73": {
+    "number": "73",
+    "name": "ŞIRNAK"
+  },
+  "74": {
+    "number": "74",
+    "name": "BARTIN"
+  },
+  "75": {
+    "number": "75",
+    "name": "ARDAHAN"
+  },
+  "76": {
+    "number": "76",
+    "name": "IĞDIR"
+  },
+  "77": {
+    "number": "77",
+    "name": "YALOVA"
+  },
+  "78": {
+    "number": "78",
+    "name": "KARABüK"
+  },
+  "79": {
+    "number": "79",
+    "name": "KİLİS"
+  },
+  "80": {
+    "number": "80",
+    "name": "OSMANİYE"
+  },
+  "81": {
+    "number": "81",
+    "name": "DÜZCE"
+  }
+}
