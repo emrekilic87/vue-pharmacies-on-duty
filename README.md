@@ -6,3 +6,5 @@ Tech stacks;
 * Vuex
 * Axios
 * SCSS
+<br>
+Demo: https://vue-pharmacies-on-duty.vercel.app/
