@@ -1,4 +1,4 @@
-This free api has been used in this project >> https://kodlama.net/ucretsiz-nobetci-eczane-api 
+This free api has been used in this project >> https://collectapi.com/tr/api/health/nobetci-eczane-api 
 <br>
 <br>
 Tech stacks;
