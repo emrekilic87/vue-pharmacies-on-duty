@@ -1,9 +1,9 @@
 <template>
   <div class="search">
     <form @submit.prevent="onSubmit">
-      <select class="selectBox" v-model="licensePlate" :required="true">
+      <select class="selectBox" v-model="cityName" :required="true">
         <option disabled value="">Şehir Seçiniz</option>
-        <option v-bind:key="city.number" v-bind:value="city.number"  v-for="city in cities">
+        <option v-bind:key="city.number" v-bind:value="city.name"  v-for="city in cities">
            {{ city.name }}
         </option>
       </select>
@@ -21,14 +21,14 @@ export default {
   data() {
     return {
       cities: cityData,
-      licensePlate: ""
+      cityName: ""
     };
   },
   methods: {
     ...mapActions(["fetchPharmacies"]),
     onSubmit() {
       this.fetchPharmacies({
-        licensePlate: this.licensePlate,
+        cityName: this.cityName,
       });
     },
   }

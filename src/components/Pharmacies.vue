@@ -3,21 +3,21 @@
     <div
       class="result"
       v-for="pharmacy in pharmacyList"
-      :key="pharmacy.eczane_telefon"
+      :key="pharmacy.phone"
     >
       <h2 class="title">
-        {{ pharmacy.eczane_adi }}
+        {{ pharmacy.name }}
       </h2>
       <p class="phone">
-        <a :href="`tel:${pharmacy.eczane_telefon}`">
-          {{ pharmacy.eczane_telefon }}
+        <a :href="`tel:${pharmacy.phone}`">
+          {{ pharmacy.phone }}
         </a>
       </p>
       <p class="district">
-        {{ pharmacy.eczane_ilce }}
+        {{ pharmacy.dist }}
       </p>
       <p class="address">
-        {{ pharmacy.eczane_adres }}
+        {{ pharmacy.address }}
       </p>
     </div>
   </div>
