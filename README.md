@@ -6,5 +6,6 @@ Tech stacks;
 * Vuex
 * Axios
 * SCSS
+* Vue Test Utils with Jest
 <br>
 Demo: https://vue-pharmacies-on-duty.vercel.app/
