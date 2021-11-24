@@ -1,10 +1,6 @@
 <template>
   <div class="results">
-    <div
-      class="result"
-      v-for="pharmacy in pharmacyList"
-      :key="pharmacy.phone"
-    >
+    <div class="result" v-for="pharmacy in pharmacyList" :key="pharmacy.phone">
       <h2 class="title">
         {{ pharmacy.name }}
       </h2>
@@ -29,9 +25,9 @@ import { mapGetters, mapActions } from "vuex";
 export default {
   name: "Pharmacies",
   methods: {
-    ...mapActions(["fetchPharmacies"]),
+    ...mapActions(["fetchPharmacies"])
   },
-  computed: mapGetters(["pharmacyList"]),
+  computed: mapGetters(["pharmacyList"])
 };
 </script>
 

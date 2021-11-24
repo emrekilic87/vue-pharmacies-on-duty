@@ -7,8 +7,8 @@ const state = {
 };
 
 const getters = {
-  pharmacyList: (state) => state.pharmacies.result,
-  loading: (state) => state.loading,
+  pharmacyList: state => state.pharmacies.result,
+  loading: state => state.loading
 };
 
 const actions = {
@@ -18,15 +18,15 @@ const actions = {
       `https://api.collectapi.com/health/dutyPharmacy?il=${data.cityName}`,
       {
         headers: {
-          Authorization: "apikey " + state.apikey,
-        },
+          Authorization: "apikey " + state.apikey
+        }
       }
     );
     commit("setPharmacies", response.data);
-    if(response.data.success == true){
+    if (response.data.success == true) {
       commit("setLoading", false);
     }
-  },
+  }
 };
 
 const mutations = {
@@ -35,12 +35,12 @@ const mutations = {
   },
   setLoading: (state, loading) => {
     state.loading = loading;
-  },
+  }
 };
 
 export default {
   state,
   getters,
   actions,
-  mutations,
+  mutations
 };

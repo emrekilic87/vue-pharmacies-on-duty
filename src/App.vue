@@ -22,9 +22,9 @@ export default {
   components: {
     Search,
     Pharmacies,
-    Jumper,
+    Jumper
   },
-  computed: mapGetters(["loading"]),
+  computed: mapGetters(["loading"])
 };
 </script>
 
@@ -35,19 +35,19 @@ body {
   padding: 0;
   background-color: #161b22;
 }
- .loading {
-    background: #161b22a3;
-    width: 100%;
-    height: 100%;
-    z-index: 99999;
+.loading {
+  background: #161b22a3;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  position: fixed;
+  .spinner {
     position: fixed;
-    .spinner {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translateX(-50%);
-    }
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
   }
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -57,6 +57,5 @@ body {
   .mainTitle {
     color: aliceblue;
   }
- 
 }
 </style>

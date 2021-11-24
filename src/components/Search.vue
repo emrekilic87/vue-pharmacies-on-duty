@@ -1,13 +1,17 @@
 <template>
-  <div class="search">
+  <div id="search" class="search">
     <form @submit.prevent="onSubmit">
       <select class="selectBox" v-model="cityName" :required="true">
         <option disabled value="">Şehir Seçiniz</option>
-        <option v-bind:key="city.number" v-bind:value="city.name"  v-for="city in cities">
-           {{ city.name }}
+        <option
+          v-bind:key="city.number"
+          v-bind:value="city.name"
+          v-for="city in cities"
+        >
+          {{ city.name }}
         </option>
       </select>
-      <button type="submit" class="btn">ARA</button>
+      <button id="submitBtn" type="submit" class="btn">ARA</button>
     </form>
   </div>
 </template>
@@ -28,9 +32,9 @@ export default {
     ...mapActions(["fetchPharmacies"]),
     onSubmit() {
       this.fetchPharmacies({
-        cityName: this.cityName,
+        cityName: this.cityName
       });
-    },
+    }
   }
 };
 </script>
@@ -43,14 +47,14 @@ export default {
   background-color: #000;
   padding: 20px 0;
 
-  .selectBox{
+  .selectBox {
     width: 215px;
     height: 27px;
     border-width: 0px;
     outline: 0;
   }
 
-  .btn{
+  .btn {
     padding: 0;
     height: 35px;
     background-color: #055967;

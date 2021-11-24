@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Vuex from "vuex";
-import PharmacyModule from "../store/modules/pharmacy-module"
+import PharmacyModule from "../store/modules/pharmacy-module";
 
 Vue.use(Vuex);
 
