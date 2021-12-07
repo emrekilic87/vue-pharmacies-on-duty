@@ -1,5 +1,5 @@
 <template>
-  <div class="results">
+  <div id="results" class="results">
     <div class="result" v-for="pharmacy in pharmacyList" :key="pharmacy.phone">
       <h2 class="title">
         {{ pharmacy.name }}
